@@ -28,6 +28,9 @@ java -jar target/serving-web-content-complete-0.0.1-SNAPSHOT.jar
 
 # 結束方式
 control鍵 + c
-
+```
+### 透過瀏覽器查看
+```
+http://localhost:8080/
 
 ```
