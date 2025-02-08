@@ -34,3 +34,10 @@ control鍵 + c
 http://localhost:8080/
 
 ```
+### 透過 curl
+#### Get
+```
+curl -X GET localhost:8080
+# 或
+curl localhost:8080
+```
