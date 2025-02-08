@@ -33,6 +33,8 @@ control鍵 + c
 ```
 http://localhost:8080/
 
+http://localhost:8080/greeting
+
 ```
 ### 透過 curl
 #### Get
@@ -40,4 +42,8 @@ http://localhost:8080/
 curl -X GET localhost:8080
 # 或
 curl localhost:8080
+
+curl -X GET localhost:8080/greeting
+# 或
+curl localhost:8080/greeting
 ```
