@@ -108,4 +108,29 @@ public class GreetingController {
 
 }
 ```
-
+### 查看 html(src/main/resources/static/index.html)
+```gherkin
+<!DOCTYPE HTML>
+<html>
+<head> 
+    <title>Getting Started: Serving Web Content</title> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <p>Get your greeting <a href="/greeting">here</a></p>
+</body>
+</html>
+```
+### 查看 html + thymeleaf(src/main/resources/templates/greeting.html)
+```gherkin
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org"><!-- 這行設定 thymeleaf//-->
+<head> 
+    <title>Getting Started: Serving Web Content</title> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <p th:text="|Hello, ${name}!|" /> <!-- 這行使用 th 縮寫代表 thymeleaf//-->
+</body>
+</html>
+```
